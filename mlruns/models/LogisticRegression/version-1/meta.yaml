@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1738239527712
+current_stage: None
+description: null
+last_updated_timestamp: 1738239527712
+name: LogisticRegression
+run_id: 337af0660ea64727a234a9ea9af24953
+run_link: null
+source: file:///D:/DATA%20SCIENCE/end%20to%20end%20Mental%20health/end-to-end-Mental-Health-project/mlruns/813022326936149491/337af0660ea64727a234a9ea9af24953/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///D:/DATA%20SCIENCE/end%20to%20end%20Mental%20health/end-to-end-Mental-Health-project/mlruns/813022326936149491/337af0660ea64727a234a9ea9af24953/artifacts/model
+user_id: null
+version: 1
