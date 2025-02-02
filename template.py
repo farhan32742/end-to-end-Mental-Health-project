@@ -7,18 +7,23 @@ project_name =  "Mental_Health"
 list_of_files = [
 ".github/workflows/.gitkeep",
 f"src/{project_name}/__init__.py",
+f"src/{project_name}/artifacts",
 f"src/{project_name}/components/__init__.py",
 f"src/{project_name}/components/data_ingestion.py",
 f"src/{project_name}/components/model_trainer.py",
+f"src/{project_name}/experimen_file/__init__.py",
+f"src/{project_name}/experimen_file/mental_health.ipynb",
 f"src/{project_name}/logging.py",
 f"src/{project_name}/exception.py",
 f"src/{project_name}/mlflow_Integration.py",
 f"templates/indix.html",
+f"static",
 "app.py",
 "Dockerfile",
 "requirements.txt",
 "setup.py",
 "main.py",
+"app.py",
 ]
 
 

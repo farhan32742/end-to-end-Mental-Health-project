@@ -1,5 +1,7 @@
 import mlflow
 import mlflow.sklearn
+import os
+
 
 def log_and_register_experiment(model, model_name, accuracy, f1, precision, params):
     """
@@ -14,7 +16,7 @@ def log_and_register_experiment(model, model_name, accuracy, f1, precision, para
     params (dict): Parameters used for training.
     """
     # Set the MLflow experiment
-    mlflow.set_experiment("Mental Health Project2")
+    mlflow.set_experiment("Mental Health Project")
     
     # Start an MLflow run
     with mlflow.start_run() as run:

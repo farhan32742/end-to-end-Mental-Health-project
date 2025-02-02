@@ -129,6 +129,8 @@ celerybeat.pid
 
 # Environments
 .env
+.mental_health_env
+.mlruns
 .venv
 env/
 venv/

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Prediction</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-group {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Mental Health Prediction</h1>
+        <form action="/predict" method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" class="form-control" name="age" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select class="form-control" name="gender" required>
+                            <option value="0">Female</option>
+                            <option value="1">Male</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Financial Stress</label>
+                        <input type="number" class="form-control" name="financial_stress" required>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Dietary Habits</label>
+                        <select class="form-control" name="dietary_habits" required>
+                            <option value="0">Healthy</option>
+                            <option value="1">Moderate</option>
+                            <option value="2">Unhealthy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Suicidal Thoughts</label>
+                        <select class="form-control" name="suicidal_thoughts" required>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Family History of Mental Illness</label>
+                        <select class="form-control" name="family_history" required>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Work Pressure</label>
+                        <input type="number" class="form-control" name="work_pressure" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Job Satisfaction</label>
+                        <input type="number" class="form-control" name="job_satisfaction" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Work Hours</label>
+                        <input type="number" class="form-control" name="work_hours" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <button type="submit" class="btn btn-danger" style="width: 100%; border-radius: 15px; font-size: 18px;">Predict</button>
+                </div>
+                <div class="col-md-4"></div>
+
+            
+        </div>
+        </form>
+    </div>
+</body>
+</html>

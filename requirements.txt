@@ -7,3 +7,4 @@ mlflow
 imblearn
 flask
 setuptools
+ipykernel
